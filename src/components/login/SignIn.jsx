@@ -149,7 +149,7 @@ export default function SignIn() {
   };
 
   return (
-    <Box className="px-5">
+    <Box className="px-5 w-5">
       <ThemeProvider theme={defaultTheme}>
         <CssBaseline enableColorScheme />
         <SignInContainer direction="column" justifyContent="space-between">
@@ -163,7 +163,7 @@ export default function SignIn() {
             <Typography
               component="h1"
               variant="h4"
-              sx={{ width: "100%", fontSize: "clamp(2rem, 10vw, 2.15rem)" }}
+              sx={{ width: "100%", fontSize: "clamp(2rem, 10vw, 2.15rem)",textAlign: "left", float: "left"}}
             >
               Sign in
             </Typography>
